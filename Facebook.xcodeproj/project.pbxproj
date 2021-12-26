@@ -11,6 +11,7 @@
 		A3E4B017277648A6009BC33B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4B016277648A6009BC33B /* ContentView.swift */; };
 		A3E4B019277648A7009BC33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E4B018277648A7009BC33B /* Assets.xcassets */; };
 		A3E4B01C277648A7009BC33B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E4B01B277648A7009BC33B /* Preview Assets.xcassets */; };
+		A3E4B02327767B91009BC33B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E4B02227767B91009BC33B /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A3E4B016277648A6009BC33B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3E4B018277648A7009BC33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3E4B01B277648A7009BC33B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3E4B02227767B91009BC33B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A3E4B013277648A6009BC33B /* Facebook */ = {
 			isa = PBXGroup;
 			children = (
+				A3E4B02227767B91009BC33B /* Data.swift */,
 				A3E4B014277648A6009BC33B /* FacebookApp.swift */,
 				A3E4B016277648A6009BC33B /* ContentView.swift */,
 				A3E4B018277648A7009BC33B /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3E4B017277648A6009BC33B /* ContentView.swift in Sources */,
+				A3E4B02327767B91009BC33B /* Data.swift in Sources */,
 				A3E4B015277648A6009BC33B /* FacebookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Facebook/Preview Content\"";
+				DEVELOPMENT_TEAM = X7FBND7W68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Facebook/Preview Content\"";
+				DEVELOPMENT_TEAM = X7FBND7W68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
